@@ -77,6 +77,7 @@ nav li a {
 }
 
 #prevbtn {
+	border-radius: 3px;
 	position: absolute;
 	top: 50%;
 	background-color: #707070;
@@ -85,10 +86,31 @@ nav li a {
 }
 
 #nextbtn {
+	border-radius: 3px;
 	position: absolute;
 	top: 50%;
 	right: 0%;
 	background-color: #707070;
 	height: 50px;
 	width: 50px;
+}
+
+.arrow {
+	position: absolute;
+	border: solid #fff;
+	border-width: 0 4px 4px 0;
+	display: inline-block;
+	padding: 4px;
+}
+
+.left {
+	transform: rotate(135deg);
+	top: 35%;
+	left: 25%;
+}
+
+.right {
+	transform: rotate(-45deg);
+	top: 35%;
+	right: 25%;
 }
