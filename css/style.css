@@ -44,7 +44,7 @@ header {
 	bottom: 0;
 	right: 0;
 	z-index: -1;
-	filter: brightness(40%);
+	filter: brightness(35%);
 }
 
 h3 {
@@ -98,19 +98,19 @@ nav li a {
 .arrow {
 	position: absolute;
 	border: solid #fff;
-	border-width: 0 4px 4px 0;
+	border-width: 0 2px 2px 0;
 	display: inline-block;
-	padding: 4px;
+	padding: 3px;
 }
 
 .left {
 	transform: rotate(135deg);
-	top: 35%;
-	left: 25%;
+	top: 40%;
+	left: 40%;
 }
 
 .right {
 	transform: rotate(-45deg);
-	top: 35%;
-	right: 25%;
+	top: 40%;
+	right: 40%;
 }
