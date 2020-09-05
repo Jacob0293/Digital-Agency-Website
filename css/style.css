@@ -67,13 +67,16 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	float: left;
-	padding-right: 8px;
-	color: #fff;
+	padding-right: 15px;
 	font-size: 14px;
 }
 
 nav li a {
 	color: #fff;
+}
+
+nav li a:hover {
+	border-bottom: 1px solid #fff;
 }
 
 #prevbtn {
@@ -83,6 +86,7 @@ nav li a {
 	background-color: #707070;
 	height: 50px;
 	width: 50px;
+	cursor: pointer;
 }
 
 #nextbtn {
@@ -93,6 +97,7 @@ nav li a {
 	background-color: #707070;
 	height: 50px;
 	width: 50px;
+	cursor: pointer;
 }
 
 .arrow {
@@ -113,6 +118,19 @@ nav li a {
 	transform: rotate(-45deg);
 	top: 40%;
 	right: 40%;
+}
+
+#slogan {
+	position: relative;
+	top: 100px;
+	color: #fff;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#slogan h1 {
+	font-size: 3.6em;
 }
 
 /*Footer*/
