@@ -185,3 +185,19 @@ span#terms{
 	margin: 1.66%;
 	text-align: center;
 }
+
+.service-info img {
+	filter: brightness(0.5);
+}
+
+.service-info a span {
+	color: #7A7A7A;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.service-info a span:hover {
+	color: #265CDC;
+	transition: ease 1s;
+}
