@@ -170,3 +170,11 @@ p#copy {
 span#terms{
 	color: #5699F0;
 }
+
+/*Service info*/
+
+.service-info {
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+}
