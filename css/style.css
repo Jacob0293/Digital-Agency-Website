@@ -173,6 +173,12 @@ span#terms{
 
 /*Service info*/
 
+#services {
+	margin: 130px 0;
+}
+
+
+
 .service-info {
 	float: left;
 	width: 30%;
