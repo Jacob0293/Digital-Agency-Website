@@ -221,3 +221,21 @@ span#terms{
 #about-1 {
 	margin: 50px;
 }
+
+#result-container {
+	margin: auto;
+	overflow: hidden;
+	width: 75%;
+}
+
+.result-info {
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin: 70px 0;
+}
+
+.result-num {
+	font-size: 2.5em;
+	color: #265CDC;
+}
