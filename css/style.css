@@ -197,13 +197,27 @@ span#terms{
 	transition: ease 1s;
 }
 
+#about {
+
+}
+
 #about-pic {
 	float: left;
-	width: 50%
+	width: 50%;
+	height: 350px;
+	background: url("../img/workplace.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #about-desp {
 	float: left;
 	width: 50%;
+	height: 350px;
 	background-color: #F7F9FB;
+}
+
+#about-1 {
+	margin: 50px;
 }
