@@ -249,3 +249,8 @@ span#terms{
 	width: 25%;
 	float: left;
 }
+
+.skill-info p {
+	width: 70%;
+	text-align: left;
+}
