@@ -262,3 +262,8 @@ span#terms{
 #staff p {
 	text-align: center;
 }
+
+
+.staff-info {
+	float: left;
+}
