@@ -74,6 +74,10 @@ nav li a:hover {
 	border-bottom: 1px solid #fff;
 }
 
+.selected {
+	border-bottom: 1px solid #fff;
+}
+
 #prevbtn {
 	border-radius: 3px;
 	position: absolute;
