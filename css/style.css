@@ -271,3 +271,7 @@ span#terms{
 .staff-info {
 	float: left;
 }
+
+#businesses h2 {
+	text-align: center;
+}
