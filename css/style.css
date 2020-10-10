@@ -71,11 +71,11 @@ nav li a {
 }
 
 nav li a:hover {
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #28C23E;
 }
 
 .selected {
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #28C23E;
 }
 
 #prevbtn {
