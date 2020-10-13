@@ -133,6 +133,65 @@ nav li a:hover {
 	font-size: 3.6em;
 }
 
+/*About Section for home page*/
+
+.about-btn1 {
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	background: #265CDC;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+
+.about-btn2 {
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	background: transparent;
+	border-radius: 50%;
+	border: 1px solid grey;
+	width: 28px;
+	height: 28px;
+	cursor: pointer;
+}
+
+.arrow-btn {
+	position: absolute;
+	border: solid #fff;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding: 2px;
+}
+
+.arrow-btn1 {
+	position: absolute;
+	border: solid #000;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding: 2px;
+}
+
+.left-btn {
+	transform: rotate(135deg);
+	top: 40%;
+	left: 45%;
+}
+
+.right-btn {
+	transform: rotate(-45deg);
+	top: 40%;
+	right: 45%;
+	color: #000;
+}
+
+
+#about-1 p {
+	color: #7A7C7F;
+}
 /*Footer*/
 
 #copyright {
