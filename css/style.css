@@ -192,6 +192,13 @@ nav li a:hover {
 #about-1 p {
 	color: #7A7C7F;
 }
+
+
+
+
+
+
+
 /*Footer*/
 
 #copyright {
@@ -303,12 +310,18 @@ span#terms{
 	color: #265CDC;
 }
 
+/*Skills section*/
+
 #skills {
 	background-color: #265CDC;
 	color: #fff;
+	padding: 60px 0;
 }
 
+
+
 .skill-info {
+	padding-top: 30px;
 	width: 25%;
 	float: left;
 }
@@ -329,6 +342,39 @@ span#terms{
 
 .staff-info {
 	float: left;
+}
+
+.skill-info img {
+	width: 25px;
+	height: 25px;
+}
+
+.skill-info .adj-size {
+	width: 17px;
+}
+
+/*staff*/
+
+.staff-info {
+	border-radius: 2px;
+	width: 30%;
+	margin: 1.667%;
+	float: left;
+}
+
+.staff-info img {
+	min-width: 100%;
+	height: 190px;
+	border-radius: 5px 5px 0 0;
+}
+
+.staff-info h4 {
+	text-align: center;
+}
+
+.staff-info p {
+	color: #7A7C7F;
+	font-size: 0.9em;
 }
 
 #businesses h2 {
