@@ -483,6 +483,46 @@ span#terms{
 	border-radius: 30px;
 }
 
+/*Brand Logos*/
+
+.logo-img {
+	display: block;
+	margin: 0 auto;
+}
+
+/*estimate*/
+
+#estimate {
+	background-color: #081526;
+	padding: 60px;
+}
+
+#estimate span {
+	color: #fff;
+	font-size: 40px;
+	float: left;
+}
+
+#estimate p {
+	color: #fff;
+	font-size: 9px;
+	text-align: center;
+}
+
+#get-in-touch {
+	float: right;
+}
+
+#get-in-touch button {
+	background-color: #28C23E;
+	color: #fff;
+	border: none;
+	padding: 20px 35px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-size: 9px;
+}
+
 #businesses h2 {
 	text-align: center;
 }
