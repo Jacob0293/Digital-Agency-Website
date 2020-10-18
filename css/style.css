@@ -425,8 +425,62 @@ span#terms{
 
 /*Pricing section*/
 
-#pricing h2 {
+#pricing-heading h2 {
 	text-align: center;
+}
+
+#blue-line {
+	height: 2px;
+	width: 50px;
+	background-color: #265CDC;
+	margin: 0 auto;
+}
+
+#pricing-heading p {
+	text-align: center;
+	color: #7A7C7F;
+	font-size: 0.8em;
+}
+
+/*Pricing cards*/
+
+.pricing-card {
+	width: 30%;
+	margin: 1.667%;
+	float: left;
+}
+
+.pricing-card p {
+	text-align: center;
+	font-size: 15px;
+	color: #7A7C7F;
+}
+
+.pricing-card span {
+	display: block;
+	font-size: 50px;
+	text-align: center;
+}
+
+.grey-line {
+	height: 1px;
+	width: 250px;
+	background-color: #E7E7E7;
+	margin: 30px auto;
+}
+
+.pricing-card p p{
+	color: #7A7C7F;
+}
+
+.pricing-btn {
+	background-color: transparent;
+	color: grey;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #BABABA;
+	padding: 20px 35px;
+	border-radius: 30px;
 }
 
 #businesses h2 {
