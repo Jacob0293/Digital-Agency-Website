@@ -429,7 +429,7 @@ span#terms{
 	text-align: center;
 }
 
-#blue-line {
+.blue-line {
 	height: 2px;
 	width: 50px;
 	background-color: #265CDC;
@@ -485,8 +485,22 @@ span#terms{
 
 /*Brand Logos*/
 
+#businesses {
+	margin-bottom: 70px;
+}
+
+#brand-logos ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+#brand-logos ul li {
+	display: inline;
+	padding: 0 25px;
+}
+
+
 .logo-img {
-	display: block;
 	margin: 0 auto;
 }
 
@@ -525,4 +539,47 @@ span#terms{
 
 #businesses h2 {
 	text-align: center;
+	color: #7A7C7F;
+	margin: 70px;
+}
+
+/*Contact*/
+
+#contact {
+	padding-top: 60px;
+	background-color: #F0F0F0;
+}
+
+#contact h1 {
+	text-align: center;
+}
+
+#contact p {
+	color: grey;
+	text-align: center;
+}
+
+#map {
+	width: 50%;
+	float: left;
+}
+
+#contact-form {
+	width: 50%;
+	float: right;
+}
+
+#contact-form form {
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 45px;
+}
+
+#contact-form p {
+	color: #000;
+}
+
+#company {
+	color: #7A7C7F;
+	padding: 25px 0;
 }
