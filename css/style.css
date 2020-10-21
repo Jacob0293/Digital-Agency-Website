@@ -517,7 +517,7 @@ span#terms{
 
 #estimate p {
 	color: #fff;
-	font-size: 9px;
+	font-size: 12px;
 	text-align: center;
 }
 
@@ -532,7 +532,7 @@ span#terms{
 	padding: 20px 35px;
 	border-radius: 30px;
 	text-transform: uppercase;
-	font-size: 9px;
+	font-size: 14px;
 }
 
 #businesses h2 {
@@ -565,21 +565,33 @@ span#terms{
 #contact-form {
 	width: 50%;
 	float: right;
+	margin: 100px 0;
+	background-color: #F0F0F0;
 }
 
 #contact-form form {
+	margin: auto auto auto 10px;
 	background-color: #fff;
 	border-radius: 3px;
+	float: left;
 	padding: 45px;
 }
 
 #contact-form p {
 	color: #000;
+	margin: 0;
+	text-align: center;
+}
+
+#contact-form form span {
+	text-align: center;
+	display: block;
+	margin: 30px auto;
 }
 
 #company {
 	color: #7A7C7F;
-	padding: 25px 0;
+	margin: 0 auto;
 }
 
 
@@ -606,7 +618,7 @@ input::placeholder {
 	padding: 20px 55px;
 	border-radius: 30px;
 	text-transform: uppercase;
-	font-size: 9px;
+	font-size: 12px;
 
 }
 
@@ -647,4 +659,19 @@ input::placeholder {
 
 .nav-wrapper ul li {
 	margin-bottom: 20px;
+}
+
+.white-line {
+	border-bottom: 1px solid #fff;	
+}
+
+#telephone {
+	color: #0079C1;
+}
+
+#hiring {
+	color: #fff;
+	background-color: #0079C1;
+	padding: 4px;
+	border-radius: 2px;
 }
