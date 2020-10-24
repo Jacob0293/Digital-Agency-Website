@@ -355,6 +355,7 @@ span#terms{
 
 #staff {
 	background-color: #F7F9FB;
+	padding: 80px 0;
 }
 
 
@@ -423,6 +424,10 @@ span#terms{
 
 /*Pricing section*/
 
+#pricing {
+	margin: 80px 0;
+}
+
 #pricing-heading h2 {
 	text-align: center;
 }
@@ -479,20 +484,20 @@ span#terms{
 }
 
 .pricing-btn {
-	left: 25%;
+	margin: 0 auto;
+	display: block;
 	background-color: transparent;
 	color: grey;
 	border: 1px solid #BABABA;
 	padding: 20px 35px;
 	border-radius: 30px;
-	position: absolute;
 }
 
 .pricing-btn:hover {
 	background: #265cdc;
 	color: #fff;
 	cursor: pointer;
-	border: none;
+	border: 1px solid #265cdc;
 	transition: 1s;
 }
 
@@ -715,6 +720,11 @@ input::placeholder {
 	position: relative;
 }
 
+#stay li {
+	display: inline-block;
+	margin: 0;
+}
+
 .nav-wrapper input {
 	border-radius: 20px;
 	padding: 10px 10px 10px 12px;
@@ -722,15 +732,21 @@ input::placeholder {
 	outline: none;
 }
 
-.nav-wrapper button {
+#btn-section {
+	position: relative;
+}
+
+#grn-btn {
+	position: absolute;
 	background-color: #28C23E;
+	margin-top: -22px;
+	margin-left: 3px;
 	border: none;
 	border-radius: 50%;
 	color: #fff;
+	display: inline-block;
 	height: 35px;
 	width: 35px;
-	position: absolute;
-	left: 80%;
 	cursor: pointer;
 	outline: none;
 }
