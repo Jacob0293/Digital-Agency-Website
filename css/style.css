@@ -515,6 +515,7 @@ span#terms{
 
 .logo-img {
 	margin: 0 auto;
+	width: 90px;
 }
 
 /*estimate*/
@@ -548,6 +549,14 @@ span#terms{
 	border-radius: 30px;
 	text-transform: uppercase;
 	font-size: 14px;
+	cursor: pointer;
+	outline: none;
+}
+
+#get-in-touch button:hover {
+	background-color: #fff;
+	color: #28C23E;
+	transition: 2s;
 }
 
 #businesses h2 {
@@ -580,6 +589,7 @@ span#terms{
 
 #map img {
 	width: 100%;
+	height: 600px;
 }
 
 #contact-form {
@@ -595,6 +605,7 @@ span#terms{
 	border-radius: 3px;
 	float: left;
 	padding: 45px;
+	box-shadow: 0 0 9px rgba(0,0,0, 0.3);
 }
 
 #contact-form p {
@@ -623,6 +634,7 @@ span#terms{
 	border-radius: 1px;
 	background-color: #F0F0F0;
 	margin-bottom: 9px;
+	outline: none;
 }
 
 input::placeholder {
@@ -639,6 +651,7 @@ input::placeholder {
 	border-radius: 30px;
 	text-transform: uppercase;
 	font-size: 12px;
+	outline: none;
 
 }
 
@@ -706,6 +719,7 @@ input::placeholder {
 	border-radius: 20px;
 	padding: 10px 10px 10px 12px;
 	border: none;
+	outline: none;
 }
 
 .nav-wrapper button {
@@ -718,9 +732,10 @@ input::placeholder {
 	position: absolute;
 	left: 80%;
 	cursor: pointer;
+	outline: none;
 }
 
-.nav-wrapper ul li {
+#icons li{
 	display: inline-block;
 	padding-right: 10px;
 }
