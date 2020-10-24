@@ -574,7 +574,14 @@ span#terms{
 
 #contact {
 	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: #F0F0F0;
+}
+
+#container2 {
+	margin: auto;
+	overflow: hidden;
+	width: 80%;
 }
 
 #contact h1 {
@@ -587,7 +594,7 @@ span#terms{
 }
 
 #map {
-	width: 50%;
+	width: 65%;
 	float: left;
 	background-position: center;
 }
@@ -598,7 +605,7 @@ span#terms{
 }
 
 #contact-form {
-	width: 50%;
+	width: 35%;
 	float: right;
 	margin: 100px 0;
 	background-color: #F0F0F0;
